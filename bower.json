@@ -12,5 +12,8 @@
     "styles",
     "boilerplate"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+
+  ]
 }
