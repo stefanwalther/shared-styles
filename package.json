@@ -1,6 +1,6 @@
 {
   "name": "shared-styles",
-  "description": "Styles shared across several Qlik Sense visualization extension projects.",
+  "description": "Shared styles to be used across several Qlik Sense visualization extension projects.",
   "version": "0.1.0",
   "homepage": "https://github.com/stefanwalther/shared-styles",
   "author": {
@@ -26,11 +26,12 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "gulp": "gulp --cwd ./deploy/"
   },
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
     "mocha": "*",
     "should": "*",
     "verb": "git://github.com/verbose/verb"
