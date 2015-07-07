@@ -15,6 +15,9 @@
   "license": "MIT",
   "ignore": [
     "/src/",
-    "/deploy/"
+    "/deploy/",
+    ".*",
+    "/*.*",
+    "!/README.md"
   ]
 }
