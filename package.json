@@ -1,0 +1,39 @@
+{
+  "name": "shared-styles",
+  "description": "Styles shared across several Qlik Sense visualization extension projects.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stefanwalther/shared-styles",
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanwalther/shared-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/shared-styles/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/stefanwalther/shared-styles/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "mocha": "*",
+    "should": "*",
+    "verb": "git://github.com/verbose/verb"
+  },
+  "keywords": []
+}
