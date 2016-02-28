@@ -1,31 +1,3 @@
-
-.tabs {
-  height: 50px;
-}
-.tabs ul {
-  list-style: none;
-}
-.tabs ul li {
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 3px;
-  margin-right: 5px;
-}
-.tabs ul li:hover {
-  border-bottom-style: solid;
-  border-bottom-width: 4px;
-  border-bottom-color: #d0d0d0;
-}
-.tabs ul li.active {
-  border-bottom-style: solid;
-  border-bottom-width: 4px;
-  border-bottom-color: orange !important;
-}
-
 .swr .tabs {
   height: 50px;
 }
